@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cvLugares"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:id="@+id/imgLugares"
+            android:src="@drawable/huella_de_gato_48"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvnombre_lugar"
+            android:text="@string/nombre_lugar"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCiudad"
+            android:text="@string/ciudad_lugar"
+            />
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
